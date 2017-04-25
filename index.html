@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RELOAD BUTTON</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Game Starter -->
+      <div class="align">
+          <button id="start-game">START</button>
+      </div>
+    <!-- Shows User Number of Bullets Left -->
+    <div class="top-right text-right">
+      <h4>Number of Bullets:</h4>
+      <br>
+      <div class="bullets">
+        <div class="block-style" id="one-bullet"></div>
+        <div class="block-style" id="two-bullet"></div>
+        <div class="block-style" id="three-bullet"></div>
+        <div class="block-style" id="four-bullet"></div>
+        <div class="block-style" id="five-bullet"></div>
+        <div class="block-style" id="six-bullet"></div>
+        <div class="block-style" id="seven-bullet"></div>
+        <div class="block-style" id="eight-bullet"></div>
+        <div class="block-style" id="nine-bullet"></div>
+        <div class="block-style" id="ten-bullet"></div>
+        <div class="block-style" id="eleven-bullet"></div>
+        <div class="block-style" id="twelve-bullet"></div>
+      </div>
+    </div>
+    <!-- Reload Button -->
+    <div class="reload-style container">
+      <div class="btn-default main-text centered">
+        <p id="text-style">Press <span id="control-style">R</span> to Reload</p>
+      </div>
+    </div>
+    <!-- Mp3 Gun Sound -->
+    <audio id="gunSoundEffect">
+      <source src="shooting.mp3" type="audio/mpeg">
+        Your Browser doesn't support this audio feature
+    </audio>
+    <!-- Button to end game -->
+    <div class="bottom-left">
+      <button id="end-game" class="btn-default">END GAME</button>
+    </div>
+    <script src="mainScript.js"></script>
+  </body>
+</html>

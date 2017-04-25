@@ -1,0 +1,111 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.align {
+  text-align: center;
+  margin-top: 20%;
+}
+
+#start-game {
+  -webkit-transition: ease-in-out 0.3s;
+  color: white;
+  background-color: rgba(33, 106, 166, 1);
+  border: none;
+  border: 6px solid rgba(29, 93, 145, 1);
+  width: 14%;
+  height: 170px;
+  border-radius: 50%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-size: 2rem;
+}
+
+#start-game:hover {
+  -webkit-transition: ease-in-out 0.3s;
+  opacity: 0.7;
+}
+
+.top-right {
+  float: right;
+  margin-top: -18%;
+  margin-right: 5%;
+  display: none;
+}
+
+.top-right h4 {
+  float: right;
+  font-size: 2.25rem;
+}
+
+.bullets {
+  display: inline;
+  width: 25%;
+}
+
+.block-style {
+  display: inline-block;
+  background: #000;
+  height: 20px;
+  width: 12px;
+}
+
+.reload-style {
+  text-align: center;
+  justify-content: center;
+  width: 25% !important;
+  margin-top: 10%;
+  display: none;
+}
+
+.btn-default {
+  border: 3px solid rgba(0,0,0,0.40) !important;
+  background-color: #ccc !important;
+}
+
+.main-text {
+  border: 1px solid black;
+  padding-top: 10%;
+  padding-bottom: 8%;
+  border-radius: 7%;
+  width: 100%;
+}
+
+#text-style {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#control-style {
+  background-color: rgba(0,0,0,0.50);
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.bottom-left {
+  display: none;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+#end-game {
+  -webkit-transition: ease-in-out 0.3s;
+}
+
+#end-game:hover {
+  -webkit-transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+
+/* Separate Classes */
+
+.display-none {
+  display: none;
+}
+
+.smoothFade {
+  -webkit-transition: ease-in-out 0.3s;
+}
